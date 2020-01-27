@@ -1,5 +1,5 @@
 # bulletin-board
-A simple bulletin-board app created using React-JS
+A simple bulletin-board app created using React-JS.
 
 ## Deployed Here:
 https://jijo070.github.io/bulletin-board/
