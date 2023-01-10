@@ -1,4 +1,4 @@
-//test
+//test 2
 pipeline {                   
   agent {
     label 'jenkins-build-node'
