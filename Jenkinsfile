@@ -6,6 +6,7 @@ pipeline {
     stage('Generate Token') {
       steps {
         sh '''
+             cd /home/deploy/jenkins/workspace/
              token=$(ruby generate-jwt-token.rb)
             '''
 
