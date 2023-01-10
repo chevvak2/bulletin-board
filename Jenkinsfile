@@ -20,7 +20,7 @@ pipeline {
 
           regexpFilterText: '$html_url/$ref',
 
-          regexpFilterExpression: 'https://github.com/(jijo070)/(bulletin-board)/refs/heads/(master%7Cmain)'
+          regexpFilterExpression: 'https://github.com/(jijo070)/(bulletin-board)/refs/heads/(master|main)'
       )
   }
   stages {
